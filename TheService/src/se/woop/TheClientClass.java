@@ -7,7 +7,7 @@ public class TheClientClass {
     }
     
     public static boolean isThisTrue(boolean b) {
-        boolean a = b && true;
+        boolean a = !!b && true || false;
         return a;
     }
 
